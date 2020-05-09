@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  text-align: center;
+  background-color:black;
+}
+
+.container {
+  background: white;
+  padding: 70px;
+}
+
+h2 {
+  margin: 0;
+  margin-bottom: .5rem;
+  color: white;
+  font-size: 3em;
+  background: dodgerblue;
+}
+
+.input {
+  border: 1px solid #333;
+  border-radius: .3em;
+  padding: .25rem;
+  width: 10em;
+  height: 2em;
+}
+
+select {
+  margin-left: .5rem;
+  background-color: DodgerBlue;
+  border: transparent;
+  font-size: 1.5rem;
+}
+
+select::after {
+  border: 6px solid transparent;
+  border-color: #fff transparent transparent transparent;
+}
+
+.equals {
+  font-weight: bold;
+  font-size: 2rem;
+}
